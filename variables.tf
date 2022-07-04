@@ -7,3 +7,7 @@
   type = string
   default = "subnet-your_second_subnet_id"
  }
+variable "cluster-name" {
+  default = "terraform-eks"
+  type    = string
+}
